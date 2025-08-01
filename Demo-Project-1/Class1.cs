@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace Demo_Project_1
 {
-    internal class Program
+    internal class Class1
     {
-        int i; string s; bool b;
         static void Main(string[] args)
         {
-            Program p = new Program();
-            Console.WriteLine(p.i);
-            Console.WriteLine(p.s);
-            Console.WriteLine(p.b);
-            
+            Console.WriteLine("Hello World");
+
         }
+
     }
 }
